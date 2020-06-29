@@ -8,6 +8,7 @@ on:
       - feature/*
       - epic/*
       - fix/*
+      - deleteme/*
   pull_request:
     branches:
       - develop
