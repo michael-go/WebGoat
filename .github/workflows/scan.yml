@@ -19,7 +19,7 @@ jobs:
     steps:
     - run: |
         echo ${{secrets.DEPLOY_PASSWORD}} | sudo -S chown -R $USER:$USER /home/runner/work/WebGoat
-        
+
     - uses: actions/checkout@v1
 
     - name: Perform ShiftLeft Scan
